@@ -5,7 +5,7 @@ import csv
 tw_api = API()
 
 async def add_and_log_into_account():
-    await tw_api.pool.add_account("Sinopla23", "Sandalbutut23.", "dajoka23@gmail.com", "Sandalbutut23.")
+    await tw_api.pool.add_account("TW_Username", "TW_Password", "TW_Email", "Email_Password")
     await tw_api.pool.login_all()
 
 query = 'cyber islamic university lang:id'
